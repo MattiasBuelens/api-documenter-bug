@@ -1,0 +1,17 @@
+{
+  "name": "api-documenter-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/api-documenter": "^7.12.8",
+    "@microsoft/api-extractor": "^7.13.1",
+    "typescript": "^4.2.2"
+  }
+}
