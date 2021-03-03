@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.13.1",
+    "schemaVersion": 1003,
+    "oldestForwardsCompatibleVersion": 1001
+  },
+  "kind": "Package",
+  "canonicalReference": "api-documenter-bug!",
+  "docComment": "",
+  "name": "api-documenter-bug",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "api-documenter-bug!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Class",
+          "canonicalReference": "api-documenter-bug!Calendar:class",
+          "docComment": "/**\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare class Calendar "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Calendar",
+          "members": [
+            {
+              "kind": "Property",
+              "canonicalReference": "api-documenter-bug!Calendar#events:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "events: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Event",
+                  "canonicalReference": "api-documenter-bug!Event:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "events",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              },
+              "isStatic": false
+            }
+          ],
+          "implementsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "api-documenter-bug!Event_2:interface",
+          "docComment": "/**\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface Event "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Event_2",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "api-documenter-bug!Event_2#endTime:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "endTime: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Date",
+                  "canonicalReference": "!Date:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "endTime",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "api-documenter-bug!Event_2#participants:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "participants: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "participants",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "api-documenter-bug!Event_2#startTime:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "startTime: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Date",
+                  "canonicalReference": "!Date:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "startTime",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "api-documenter-bug!Event_2#title:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "title: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "title",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        }
+      ]
+    }
+  ]
+}
