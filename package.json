@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p . && api-extractor run --local && api-documenter markdown -i temp -o docs"
   },
   "keywords": [],
   "author": "",
